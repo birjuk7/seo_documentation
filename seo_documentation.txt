@@ -35,7 +35,6 @@ help improve your website position in SERP.
 14. Web2.0 Submission
 15. Use Google My Business
 
-
 1. Creating Shareable Content
 Amazing content is always the KING in search engine optimization. Creating amazing and shareable content 
 is a smart way to generating more and more natural backlinks to our website or blog. Research often and 
@@ -58,7 +57,7 @@ help you get more back links.
 
 Top social networking sites
 
-S.No	Social Networking Sites	DA	PA	PR
+S.No Social Networking Sites	DA	PA	PR
 1	http://www.twitter.com/	100	97	10
 2	http://www.facebook.com/	100	97	9
 3	http://www.linkedin.com/	100	97	9
@@ -71,7 +70,7 @@ blog post on popular social bookmarking websites, you gain high traffic to your 
 
 Popular and high PR Bookmarking Websites
 
-S.No	Social bookmarking sites	DA	PA	PR
+S.No Social bookmarking sites	DA	PA	PR
 1	https://delicious.com	98	96	8
 2	http://stumbleupon.com	98	90	8
 3	http://digg.com	99	96	7
