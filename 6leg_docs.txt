@@ -1,0 +1,47 @@
+Star 6Leg bod
+                                                              superadmin   				for database
+Windows :RMS & (C/NebulaFNORMS/8703)                                user0:12345678                             (user:rmsadmin pass:rmsclient001)
+        :CLIENT WITHB lzo file (Downloads)                          user:user1 pass:Convex@1
+
+Linux   :200.200.200.109       (root)                               user:root pass:star12345 
+
+
+RMS:
+listening at 8703 we can see this in the top of rms server ui
+
+client side network settings
+rmsserver ip          Fno broadcast ip     cash bdc          local interface ip  
+200.200.200.1         x.xx.xx.xx            0                192.168.41.1
+
+rmsserver port        Fno broadcast port   cash bdc          
+8703                  28910                 0
+
+
+
+steps for the bod:-
+check telent in windows from to linux ip:     $telnet 200.200.200.109 8723
+
+to start binary in linux
+$sudo service iptables stop
+$./Factotumrms
+
+
+to start rms
+archive system              login            
+
+to login client
+user1   Convex@1
+
+
+liner
+market watch ,futinx pr futstk  ,  sbin,sunpharma,icici,reliance add all these 
+30000 add price
+
+ 
+                              
+
+
+
+
+
+

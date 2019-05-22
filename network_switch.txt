@@ -1,0 +1,73 @@
+network switch
+
+PF SENSE:-
+pf sense is a firewall to protect n/w.
+To control traffic ,like to allow or to block traffic
+Open source firwall
+Provides network security solution
+Works as a router
+Reliabe
+
+Types of PF sense:-
+1. Hardware
+2. Software   (open source so free to download) 
+
+
+Two interfaces of PF sense:-
+1. LAN   (Trusted)
+2. WAN   (Untrusted)
+
+
+To make a network switch we need atleast 3 network cards.
+One LAN card
+Two WAN card  (2 ISP in this case)
+
+Features of PF SENSE:-
+1.Firewall
+  Secures the network
+
+2.State Table
+  When a traffic originates from LAN to WAN ,then firewall maintains a table which keeps the track of all data that 
+  from which source ip the tarffic tranfers from broadcasted (trusted or LAN) zone to untrusted (WAN) zone.It maintain 
+  the record of all that data.
+  If in case it found that the connection is originated internally from LAN,then it allows the traffic but if it founds
+  that the connection is generated from outside i.e. WAN or from an untrusted zone then it will discard the connection   
+
+  It maintains a firewall table ,it allows only those traffic to from WAN to LAN, which originates from LAN to WAN first.
+
+3. NAT, PAT(Network Address Tranlation Port address Translation)
+
+4. High Avaliability
+   In this there works two pf sense firewall.
+   First pf sense firewall copys the state table to the secondary firewall so that if in case the primary firewall stops working 
+   then the secondary firewall will gets auto restarts itself.
+
+5. WAN Failover or Load balancing
+   Here we need 3 network interface card 1 LAN & two WAN
+   We were taking WAN connection from two different ISP
+   If one WAN connection fails then the pfsense switches the traffic to another WAN connection
+
+6. VPN
+   If a user wants to enter from a remote location to the office network ,then whats the procedure for that.
+
+7. PPPOE Server(Point to Point protocol over ethernet)
+
+8. Monitoring Traffic (ntop)
+   How to monitor the traffic of LAN network users.
+   Which user is consuming how much traffic & total consumption of the bandwidth of a network.
+   
+9. Backup /Restore FW configuration       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
