@@ -1,9 +1,9 @@
 Star 6Leg bod
                                                               superadmin   				for database
-Windows :RMS & (C/NebulaFNORMS/8703)                                user0:12345678                             (user:rmsadmin pass:rmsclient001)
-        :CLIENT WITHB lzo file (Downloads)                          user:user1 pass:Convex@1
+Windows :RMS & (C/NebulaFNORMS/8703)                                user0:xxxxxx                             (user:rmsadmin pass:xxxx)
+        :CLIENT WITHB lzo file (Downloads)                          user:user1 pass:xxxxxx
 
-Linux   :200.200.200.109       (root)                               user:root pass:star12345 
+Linux   :200.20.220.19       (root)                               user:root pass:xxxxxx 
 
 
 RMS:
@@ -11,7 +11,7 @@ listening at 8703 we can see this in the top of rms server ui
 
 client side network settings
 rmsserver ip          Fno broadcast ip     cash bdc          local interface ip  
-200.200.200.1         x.xx.xx.xx            0                192.168.41.1
+20.210.20.1         x.xx.xx.xx            0                192.168.44.13
 
 rmsserver port        Fno broadcast port   cash bdc          
 8703                  28910                 0
@@ -19,7 +19,7 @@ rmsserver port        Fno broadcast port   cash bdc
 
 
 steps for the bod:-
-check telent in windows from to linux ip:     $telnet 200.200.200.109 8723
+check telent in windows from to linux ip:     $telnet 200.20.220.19 8723
 
 to start binary in linux
 $sudo service iptables stop
@@ -30,7 +30,7 @@ to start rms
 archive system              login            
 
 to login client
-user1   Convex@1
+user1   xxxxxxx
 
 
 liner
